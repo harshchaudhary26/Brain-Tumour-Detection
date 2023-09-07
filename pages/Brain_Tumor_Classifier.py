@@ -96,6 +96,8 @@ if x:
             <h1>Glioma Positive</h1>
             """
         )
+        st.write("Don't worry! For glioma treatment, radiation therapy is often used after surgery. The radiation kills any glioma cells that might remain after surgery. Radiation is often combined with chemotherapy. Radiation therapy might be the first glioma treatment if surgery isn't an option.")
+    
     elif y.strip() == "Meningioma":
         components.html(
             """
@@ -110,6 +112,8 @@ if x:
             <h1>Meningioma Positive</h1>
             """
         )
+        st.write("Surgery is the most common type of treatment, but it can be difficult if the tumor is near a delicate part of the brain or spinal cord. Radiation therapy is also commonly used. The blood-brain barrier, which normally protects the brain and spinal cord from damaging chemicals, also keeps out many types of chemotherapy")
+    
     else:
         components.html(
             """
@@ -124,6 +128,7 @@ if x:
             <h1>Pituitary Tumor Found</h1>
             """
         )
+        st.write('Treatment of pituitary carcinomas is palliative, to relieve symptoms and improve the quality of life. Treatment may include the following: Surgery (transsphenoidal surgery or craniotomy) to remove the cancer, with or without radiation therapy. Drug therapy to stop the tumor from making hormones')
 
     
     
